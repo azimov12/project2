@@ -11,5 +11,5 @@ urlpatterns = [
     path('update/<int:pk>', UpdateNoutbook.as_view()),
     path('update2/<int:pk>', UpdateKeyboard.as_view()),
     path('delete/<int:pk>', DeleteNoutbook.as_view()),
-    path('delete/<int:pk>', DeleteKeyboard.as_view()),
+    path('delete2/<int:pk>', DeleteKeyboard.as_view()),
 ]
